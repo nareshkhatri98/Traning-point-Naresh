@@ -1,0 +1,40 @@
+.parent {
+  background-color: blanchedalmond;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
+}
+
+.parent-column {
+  background-color: aqua;
+  height: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+
+  align-items: center;
+  justify-content: space-around;
+}
+
+.child {
+  width: 100px;
+}
+.red {
+  background-color: red;
+  height: 10px;
+}
+.green {
+  background-color: green;
+  height: 30px;
+}
+.yellow {
+  background-color: yellow;
+  height: 40px;
+}
+.brown {
+  background-color: brown;
+  height: 50px;
+}
+.blue {
+  background-color: blue;
+  height: 60px;
+}
