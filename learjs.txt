@@ -1,0 +1,10 @@
+There are different types of  data types
+
+1. Number
+2. String
+3. Object
+4.boolean
+
+const can't Resign  and redeclare
+let can be Resign but not redeclare.
+var can be Resign and redeclare.
