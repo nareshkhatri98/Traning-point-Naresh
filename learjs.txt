@@ -8,3 +8,9 @@ There are different types of  data types
 const can't Resign  and redeclare
 let can be Resign but not redeclare.
 var can be Resign and redeclare.
+
+
+scope in javaScript
+1.block(access with in the block)
+2.local(access with in the functional block)
+3.global(access any where and any time)
