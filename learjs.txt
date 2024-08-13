@@ -14,3 +14,14 @@ scope in javaScript
 1.block(access with in the block)
 2.local(access with in the functional block)
 3.global(access any where and any time)
+
+
+
+Datatype: string, number, boolean, Array, Object
+Type Conversion : String to number and number to string
+
+function()
+object ->spread
+
+Array
+-> map
