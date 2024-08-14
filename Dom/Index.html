@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="flex justify-center mt-12 mx-auto">
+    <div class="flex flex-col items-center bg-gray-400 w-96 justify-center h-96 rounded-md">
+        <h1 class="text-3xl text-black ">Calculation</h1>
+        <div class="text-black flex flex-col w-80 ">
+            <label for="number1">Number1</label>
+            <input type="text" id="number1" class="bg-gray-200 p-3 text-bl border-solid rounded-lg>
+            
+          </div>
+          <div class="text-black  flex flex-col" >
+            <label for="number2">Number2</label>
+            <input type="text" id="number2" class="bg-gray-200 w-80 p-3 text-black">
+          </div>
+          <div class="text-black  flex flex-col w-80">
+            <label for="Result">Result</label>
+            <input type="text" disabled id="result" class="bg-gray-200 p-3 text-black" id="result">
+          </div>
+          <button class="w-32 p-3 text-xl bg-green-500 mt-5 rounded-lg" onclick="MyCalculate()">Calculate</button>
+    </div>
+</div>
+
+<script>
+
+   
+    function MyCalculate(){
+        const number1 = document.getElementById("number1").value;
+        const number2 = document.getElementById("number2").value;
+        const Result = document.getElementById("result");
+        let sum = parseInt(number1) + parseInt(number2);
+        Result.value = sum;
+    }
+    
+
+</script>
+</body>
+</html>
